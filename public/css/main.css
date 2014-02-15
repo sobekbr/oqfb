@@ -236,3 +236,7 @@ button.btn-success i.icon-caret-up, button.btn-danger i.icon-caret-down {
 .sorting a.active:hover {
 	text-decoration: none;
 }
+
+.fb-like {
+	top: -5px;
+}
