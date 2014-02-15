@@ -3,13 +3,13 @@
 configure do
   ### Customizable variables - use strings and ENV variables ###
 
-  set :city_name,               'em Coimbra'                         # Include the preposition (em Coimbra, no Porto, etc.)
-  set :meta_keywords,           'coimbra,made in coimbra'
-  set :meta_description,        'Uma experiência social.'            # Entry pages have their own description (the entry text)
- # set :background_color,        '#80D2F1'
+  set :city_name,               'em Braga'                           # Include the preposition (em Coimbra, no Porto, etc.)
+  set :meta_keywords,           'braga,made in braga'
+  set :meta_description,        'Uma experiência social para melhorar a vida dos cidadãos de Braga.'            # Entry pages have their own description (the entry text)
+  set :background_color,        '#F17370'
 
-  set :site_url,                'http://oquefaltaemcoimbra.com'      # Used for facebook comments. No trailing slash please.
-  set :fb_app_id,               'xxxxxxxxxxxxxxx'                    # You should create a facebook app to moderate comments
+  set :site_url,                'http://www.oquefaltaembraga.com'    # Used for facebook comments. No trailing slash please.
+  set :fb_app_id,               '720456774666211'                    # You should create a facebook app to moderate comments
   set :analytics_id,            'UA-xxxxxxxx-x'                      # Google Analytics
 
   set :production_database_url, ENV['DATABASE_URL']                  # Should work on Heroku out of the box
